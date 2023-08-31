@@ -6,6 +6,9 @@ title: Lógica proposicional
 # Lógica proposicional
 {: .no_toc .mb-2 }
 
+- TOC
+{:toc}
+
 ## Leituras
 
 - Notas de aula:
@@ -83,7 +86,7 @@ if __name__ == '__main__':
     print(s.check())
 ```
 
-### Resolvendo o problema das *n* rainhas
+### Resolvendo o problema das n-rainhas
 
 Segundo a codificação dada nas [notas de aula de satisfatibilidade]({{ site.baseurl }}{% link _lessons/01-prop-logic/03-prop-logic-sat.pdf %}), podemos escrever o programa abaixo que dá todas as soluções para o problema das `n` rainhas, para um dado `n`.
 
@@ -122,13 +125,13 @@ if __name__ == '__main__':
             for k in range(i+1, n+1):
                 s.add(Implies(board[i][j], Not(board[k][j])))
 
-    # Q4: não há rainhas na diagonal (parte 1)
+    # Q4: não há rainhas na mesma diagonal (parte 1)
     for i in range(2, n+1):
         for j in range(1, n):
             for k in range(1, min(i-1, n-j) + 1):
                 s.add(Implies(board[i][j], Not(board[i-k][k+j])))
 
-    # Q5: não há rainhas na diagonal (parte 2)
+    # Q5: não há rainhas na mesma diagonal (parte 2)
     for i in range(1, n):
         for j in range(1, n):
             for k in range(1, min(n-i, n-j) + 1):
