@@ -23,3 +23,8 @@ title: Tópico 01 - Lógica proposicional
 30 Ago
 : [**Resolução via SAT**]({{ site.baseurl }}{% link _lessons/01-prop-logic/prop-logic.md %})
 
+04, 06 Set
+: [**Demonstrações e regras de inferência**]({{ site.baseurl }}{% link _lessons/02-proofs/proofs.md %})
+  : [Slides]({{ site.baseurl }}{% link _lessons/02-proofs/04-proofs.pdf %})
+
+
