@@ -10,7 +10,7 @@ title: Tópico 03 - Métodos de Demonstração
   : [Slides]({{ site.baseurl }}{% link _lessons/02-proofs/06-proofs.pdf %})
 
 27 Set
-: **Resolução via SMT**
+: Sem aula
 
 02 Out
 : Sem aula
