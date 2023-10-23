@@ -2,6 +2,9 @@
 title: Tópico 05 - Indução e Recursão
 ---
 
+## {{ page.title }}
+{: .text-gamma }
+
 18 Out
 : [**Indução matemática**]({{ site.baseurl }}{% link _lessons/05-induction/induction.md %})
   : [Slides]({{ site.baseurl }}{% link _lessons/05-induction/induction.pdf %})
